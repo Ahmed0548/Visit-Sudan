@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    }
+.hero {
+    background-image: url("https://cdn.thecrazytourist.com/wp-content/uploads/2023/10/ccimage-shutterstock_1127364986.jpg");
+    background-size: cover;
+    padding: 1px 0 20px 0;
+
+    
+}
+
+#title {
+    margin: 125px auto 0 auto;
+    color: #F1FAEE;
+    width: 110px;
+    padding: 6px;
+    background-color: #457B9D;
+    border-radius: 5px;
+    font-size: large;
+}
+#info {
+    font-size: large;
+    color: #F1FAEE;
+    background-color: #1D3557;
+    width: 350px;
+    margin: 10px auto 30px auto ;
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+.activities {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.activities-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#activities-info {
+    color: #1D3557;
+}
+
+.guide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-bottom: 6px solid #1D3557;
+}
+.guide-info {
+    margin-left: 20px;
+}
+img {
+    width: 200px; 
+}
+img:hover {
+    border-bottom: 5px solid #1D3557;
+    
+}
+
+
+#txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
