@@ -18,6 +18,7 @@ body {
     }
 .hero {
     background-image: url("https://cdn.thecrazytourist.com/wp-content/uploads/2023/10/ccimage-shutterstock_1127364986.jpg");
+    max-width: 100%;
     background-size: cover;
     padding: 1px 0 20px 0;
 
